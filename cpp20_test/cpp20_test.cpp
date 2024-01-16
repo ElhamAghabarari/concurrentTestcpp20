@@ -47,7 +47,8 @@ int main()
     std::jthread(fillArray, 20000);
     std::jthread(readArray,0);
     
-    std::cout << "finish f1";
+    std::cout << "finish step1 f1";
+    std::cout << "finish step2 f1";
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
