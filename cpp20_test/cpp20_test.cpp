@@ -47,7 +47,7 @@ int main()
     std::jthread(fillArray, 20000);
     std::jthread(readArray,0);
     
-    std::cout << "eeeeeeeeeeeeeend";
+    std::cout << "eeeeeeeeeeeeeend222222222222222222";
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
