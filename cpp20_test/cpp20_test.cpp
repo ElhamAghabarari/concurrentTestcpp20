@@ -51,7 +51,7 @@ int main()
     
     Logout("finish step1 f1\n");
     Logout("finish step2 f1\n");
-    
+    Logout("finish step3 f1\n");
 
 }
 
