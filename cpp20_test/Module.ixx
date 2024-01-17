@@ -2,6 +2,6 @@ export module Elham;
 
 import <iostream>;
  
-export void MyFunc() {
-	std::cout << "write in module";
+export void Logout(std::string txt) {
+	std::cout << txt;
 };

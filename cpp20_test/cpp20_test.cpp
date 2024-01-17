@@ -49,9 +49,9 @@ int main()
     std::jthread(fillArray, 20000);
     std::jthread(readArray,0);
     
-    std::cout << "finish step1 f1\n";
-    std::cout << "finish step2 f1\n";
-    MyFunc();
+    Logout("finish step1 f1\n");
+    Logout("finish step2 f1\n");
+    
 
 }
 
