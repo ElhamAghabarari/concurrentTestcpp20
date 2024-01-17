@@ -1,11 +1,13 @@
 // cpp20_test.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
+import Elham;
 #include <iostream>
 #include <thread>
 #include <array>
 #include<format>
 #include <semaphore>
+
 
 int main()
 {
@@ -47,8 +49,10 @@ int main()
     std::jthread(fillArray, 20000);
     std::jthread(readArray,0);
     
-    std::cout << "finish step1 f1";
-    std::cout << "finish step2 f1";
+    std::cout << "finish step1 f1\n";
+    std::cout << "finish step2 f1\n";
+    MyFunc();
+
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
